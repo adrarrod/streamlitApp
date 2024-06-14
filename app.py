@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Análise Exploratória")
-st.title("Bem-vindo a análise exploratória das Depesas de Viagem")
+st.title("Bem-vindo a análise exploratória das Despesas de Viagem")
 
 @st.cache_resource
 def load_data():
